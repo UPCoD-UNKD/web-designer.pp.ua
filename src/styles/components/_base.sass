@@ -1,0 +1,89 @@
+/* Base */
+
+html
+  font-family: $basic
+  font-weight: 400
+  font-size: 1rem
+  font-smooth: always
+  -webkit-font-smoothing: antialised
+body
+  position: relative
+  display: block
+  width: 100%
+  height: auto
+  min-height: 100vh
+  overflow-x: hidden
+  font-family: $basic
+  margin: 0
+  padding: 0
+  color: $white
+  font-size: 100%
+  z-index: 0
+  background-color: $dark
+  overflow-y: scroll
+  scroll-behavior: smooth
+  &::-webkit-scrollbar
+    width: .95em  
+  &::-webkit-scrollbar-track
+    background-color: darken($premium, 16%) 
+  &::-webkit-scrollbar-thumb
+    border: 2px solid darken($premium, 16%)
+    background-color: $premium
+    border-radius: 24px
+    outline: none
+  &.fix-mob
+    +v-sm
+      overflow: hidden
+  a
+    text-decoration: none
+  input,
+  button
+    border: none
+    outline: none
+#wd
+  display: block
+  width: 100%
+  max-width: 100%
+  min-width: 100%
+  height: auto
+  min-height: 100%
+  background: $premium url('../../assets/img/bg.jpg') center top no-repeat
+  background-blend-mode: luminosity
+  background-size: 100%
+  background-attachment: fixed
+.content
+  display: block
+  width: 100%
+  height: auto
+  margin: 0
+  padding: 0
+
+.category,
+.container
+  display: block
+  width: 90%
+  max-width: 1200px
+  margin: 0 auto
+  &--first
+    margin-top: 25vh
+  &.text-center
+    text-align: center
+  +v-xl
+    max-width: 1440px
+  +v-lg
+    max-width: 1200px
+  +v-md
+    max-width: 1024px
+  +v-sm
+    max-width: 768px
+  +v-xs
+    max-width: 100%
+
+.text
+  font-size: 1em
+  line-height: 1.5
+  font-weight: 500
+  color: $white
+
+section
+  padding: 15vh 0

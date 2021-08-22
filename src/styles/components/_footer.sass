@@ -1,0 +1,56 @@
+// Footer
+
+.footer
+  position: relative
+  padding: 40px 0
+  z-index: 1
+  +v-sm
+    padding-top: 25px
+  .partners
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    align-items: center
+    height: 160px
+    +v-sm
+      height: 100px
+      width: 80%
+      margin: 0 auto
+    &__link
+      margin: 0 16px
+      img
+        width: 40px
+        transition: all ease-out .3s
+        +v-sm
+          width: 32px
+      &:hover
+        img
+          opacity: 0.75
+.menu
+  &--footer
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    align-items: center
+    width: 100%
+    +v-sm
+      flex-flow: column nowrap
+      margin: 40px auto 32px
+    &__text,
+    &__link
+      margin: 0 20px 16px
+      color: $white
+      font-size: 1em
+      font-weight: 500
+      transition: all ease-out .3s    
+      &:hover
+        color: $premium
+      &.active
+        &:hover
+          color: $lite-blue 
+    &__text
+      margin-top: 2px
+      font-size: 1em
+      font-weight: 500
+      &:hover
+        color: $white
