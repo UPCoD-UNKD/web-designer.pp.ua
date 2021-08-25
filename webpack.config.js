@@ -71,14 +71,14 @@ module.exports = {
 				test: /\.(png|jpe?g|svg|gif)$/i,
 				loader: 'file-loader',
 				options: {
-					publicPath: './'
+					publicPath: 'https://web-designer.pp.ua'
 				}
 			},
 			{
 				test: /\.(ttf|woff|woff2|eot)$/i,
 				loader: 'file-loader',
 				options: {
-					publicPath: './'
+					publicPath: 'https://web-designer.pp.ua'
 				}
 			}
 		]
