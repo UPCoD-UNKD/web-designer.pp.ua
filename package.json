@@ -2,7 +2,7 @@
 	"name": "test",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://github.com/UPCoD-UNKD/web-designer.pp.ua",
+	"homepage": "PUBLIC_URL=__PUBLIC_URL_PLACEHOLDER__ react-scripts build && node scripts/patch-public-url.js",
 	"dependencies": {
 		"web-vitals": "^1.0.1",
 		"bootstrap": "^4.6.0",
