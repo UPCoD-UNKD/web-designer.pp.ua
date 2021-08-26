@@ -34,7 +34,7 @@ module.exports = {
 	},
 	output: {
 		filename: filename('js'),
-		path: path.resolve(__dirname, 'dist')
+		path: path.resolve(__dirname, '../.')
 	},
 	devServer: {
 		port: 3000,
@@ -71,14 +71,14 @@ module.exports = {
 				test: /\.(png|jpe?g|svg|gif)$/i,
 				loader: 'file-loader',
 				options: {
-					publicPath: 'https://web-designer.pp.ua'
+					publicPath: '../.'
 				}
 			},
 			{
 				test: /\.(ttf|woff|woff2|eot)$/i,
 				loader: 'file-loader',
 				options: {
-					publicPath: 'https://web-designer.pp.ua'
+					publicPath: '../.'
 				}
 			}
 		]
