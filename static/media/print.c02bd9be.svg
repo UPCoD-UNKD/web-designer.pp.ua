@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>print</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="print">
+            <rect id="Rectangle-Copy" fill="#B37FE0" x="0" y="0" width="64" height="64" rx="5.5"></rect>
+            <path d="M0,5.49812616 C0,2.46159493 2.45785189,0 5.50099611,0 L32,0 L32,64 L5.50099611,64 C2.46287985,64 0,61.5303394 0,58.5018738 L0,5.49812616 Z" id="Rectangle-Copy-3" fill="#D5A5FF" opacity="0.852448694"></path>
+            <g id="001-printing" transform="translate(8.000000, 5.000000)" fill-rule="nonzero">
+                <polygon id="Shape" fill="#FFDA2D" points="0 0 0 42.109375 8.05664062 42.109375 35.4492188 8.05664062 35.4492188 0"></polygon>
+                <path d="M35.4492188,0 L35.4492188,8.05664062 C34.570293,9.14922852 18.5997754,29.0030469 17.7246094,30.0910156 L17.7246094,0 L35.4492188,0 Z" id="Shape" fill="#FDBF00"></path>
+                <polygon id="Shape" fill="#B9DD39" points="41.8945312 6.4453125 41.8945312 14.5019531 24.1699219 36.5363281 14.5019531 48.5546875 6.4453125 48.5546875 6.4453125 6.4453125"></polygon>
+                <polygon id="Shape" fill="#90CC1C" points="41.8945312 6.4453125 41.8945312 14.5019531 24.1699219 36.5363281 24.1699219 6.4453125"></polygon>
+                <polygon id="Shape" fill="#F3EEE9" points="48.3398438 12.890625 48.3398438 43.7207031 39.2089844 46.1914062 37.0605469 55 12.890625 55 12.890625 12.890625"></polygon>
+                <polygon id="Shape" fill="#E9DFDA" points="48.3398438 12.890625 48.3398438 43.7207031 39.2089844 46.1914062 37.0605469 55 30.6152344 55 30.6152344 12.890625"></polygon>
+                <polygon id="Shape" fill="#C6BCB7" points="37.0605469 43.7207031 37.0605469 55 48.3398438 43.7207031"></polygon>
+                <path d="M37.0605469,43.7207031 L37.0605469,55 L48.3398438,43.7207031 L37.0605469,43.7207031 Z" id="Shape" fill="#C6BCB7"></path>
+                <polygon id="Shape" fill="#FFDA2D" points="34.9121094 25.2441406 34.375 32.4414062 26.8554688 32.4414062 26.3183594 25.4589844 26.8554688 19.3359375 34.375 19.3359375"></polygon>
+                <polygon id="Shape" fill="#FDBF00" points="34.9121094 25.2441406 34.375 32.4414062 30.6152344 32.4414062 30.6152344 19.3359375 34.375 19.3359375"></polygon>
+                <polygon id="Shape" fill="#FF637B" points="19.3359375 19.3359375 26.8554688 19.3359375 26.8554688 32.4414062 19.3359375 32.4414062"></polygon>
+                <polygon id="Shape" fill="#4BB9EC" points="34.375 19.3359375 41.8945312 19.3359375 41.8945312 32.4414062 34.375 32.4414062"></polygon>
+                <polygon id="Shape" fill="#596C76" points="25.78125 35.6640625 41.8945312 35.6640625 41.8945312 38.8867188 25.78125 38.8867188"></polygon>
+                <polygon id="Shape" fill="#465A61" points="30.6152344 35.6640625 41.8945312 35.6640625 41.8945312 38.8867188 30.6152344 38.8867188"></polygon>
+                <g id="Group" transform="translate(19.335938, 35.664062)" fill="#596C76">
+                    <polygon id="Shape" points="0 0 3.22265625 0 3.22265625 3.22265625 0 3.22265625"></polygon>
+                    <polygon id="Shape" points="6.4453125 6.4453125 11.2792969 6.4453125 11.2792969 9.66796875 6.4453125 9.66796875"></polygon>
+                    <polygon id="Shape" points="0 6.4453125 3.22265625 6.4453125 3.22265625 9.66796875 0 9.66796875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
