@@ -13,11 +13,11 @@ function HtmlWebsites009() {
 						</Link>
 						<div className='page__pagination'>
 							<Link to='/' className='page__link'>
-								Главная
+								Home
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
 							<Link to='/works' className='page__link'>
-								Работы
+								Works
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
 							<p className='page__link page__link--active'>

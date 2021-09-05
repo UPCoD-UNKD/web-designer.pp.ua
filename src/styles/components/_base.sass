@@ -23,13 +23,13 @@ body
   overflow-y: scroll
   scroll-behavior: smooth
   &::-webkit-scrollbar
-    width: .95em  
+    width: .75em  
   &::-webkit-scrollbar-track
-    background-color: darken($premium, 16%) 
+    background-color: #5F124E
   &::-webkit-scrollbar-thumb
-    border: 2px solid darken($premium, 16%)
-    background-color: $premium
-    border-radius: 24px
+    border: 2px solid #5F124E
+    background-color: transparent
+    background-color: rgba(0,0,0,.5)
     outline: none
   &.fix-mob
     +v-sm
@@ -51,6 +51,9 @@ body
   background-blend-mode: luminosity
   background-size: 100%
   background-attachment: fixed
+  overflow: hidden
+  +v-md
+    background-size: cover
 .content
   display: block
   width: 100%
@@ -87,3 +90,7 @@ body
 
 section
   padding: 15vh 0
+  +v-xl
+    padding: 0 0 15vh
+  +v-xs
+    padding: 2vh 0

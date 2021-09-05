@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import Header from './components/Header'
-// import Contact from './components/Contact'
 import Footer from './components/Footer'
+import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
 import Home from './pages/Home'
 import Works from './pages/Works'
 import Banners from './pages/Banners'
@@ -74,6 +75,8 @@ function App() {
 				<div className='content'>
 					<Switch>
 						<Route exact path='/' component={Home} />
+						<Route exact path='/about' component={AboutPage} />
+						<Route exact path='/contact' component={ContactPage} />
 
 						<Route path='/works' component={Works} />
 						<Route path='/banners' component={Banners} />
@@ -168,7 +171,6 @@ function App() {
 						<Redirect to='/' />
 					</Switch>
 				</div>
-				{/* <Contact /> */}
 				<Footer />
 			</div>
 		</BrowserRouter>

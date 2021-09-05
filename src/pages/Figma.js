@@ -13,11 +13,11 @@ function Figma() {
 				<div className='container'>
 					<div className='page__navigation'>
 						<Link to='/works' className='page__link'>
-							Работы
+							Works
 						</Link>
 						<div className='page__pagination'>
 							<Link to='/' className='page__link'>
-								Главная
+								Home
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
 							<p className='page__link page__link--active'>Uny Chat</p>
@@ -28,7 +28,7 @@ function Figma() {
 			<div className='category'>
 				<h2 className='title--single'>Figma</h2>
 				<div className='category__items'>
-					<Link to='/uni-builder' className='product__image'>
+					<Link to='/uni-chat-ui' className='product__image'>
 						<img src={f001} alt='Uny Chat' />
 					</Link>
 					<Link to='/skaya-notes-app' className='product__image'>
@@ -38,7 +38,7 @@ function Figma() {
 						<img src={f003} alt='Adspro Website' />
 					</Link>
 					<Link to='/sportmaster' className='product__image'>
-						<img src={f004} alt='Спортмастер' />
+						<img src={f004} alt='Sportmaster' />
 					</Link>
 					<Link to='/water-app' className='product__image'>
 						<img src={f005} alt='Water App' />

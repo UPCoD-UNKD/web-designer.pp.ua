@@ -12,8 +12,11 @@ function Menu() {
 				</Link>
 			</h1>
 			<div className='wd-menu'>
+				<Link to='/works' className='mob'>
+					Works
+				</Link>
 				<Link to='/works' className='wd-menu__link wd-menu__link--dropdown'>
-					<span>Работы</span>
+					<span>Works</span>
 					<div className='wd-menu--hover'>
 						<Link to='/html' className='wd-menu__link first'>
 							HTML
@@ -31,21 +34,21 @@ function Menu() {
 							PhotoShop
 						</Link>
 						<Link to='/print' className='wd-menu__link'>
-							Принт
+							Print
 						</Link>
 						<Link to='/business-cards' className='wd-menu__link'>
-							Визитки
+							Business Cards
 						</Link>
 						<Link to='/banners' className='wd-menu__link'>
-							Баннеры
+							Banners
 						</Link>
 					</div>
 				</Link>
 				<Link to='/about' className='wd-menu__link'>
-					Обо мне
+					About
 				</Link>
 				<Link to='/contact' className='wd-menu__link'>
-					Контакты
+					Contact
 				</Link>
 			</div>
 		</div>

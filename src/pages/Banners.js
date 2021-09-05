@@ -10,11 +10,11 @@ function Banners() {
 				<div className='container'>
 					<div className='page__navigation'>
 						<Link to='/works' className='page__link'>
-							Работы
+							Works
 						</Link>
 						<div className='page__pagination'>
 							<Link to='/' className='page__link'>
-								Главная
+								Home
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
 							<p className='page__link page__link--active'>Banners</p>
@@ -23,7 +23,7 @@ function Banners() {
 				</div>
 			</div>
 			<div className='category'>
-				<h2 className='title--single'>Баннеры</h2>
+				<h2 className='title--single'>Banners</h2>
 				<div className='category__items'>
 					<Link to='/web-banner-ad-template' className='product__image'>
 						<img src={b001} alt='Web Banner Ad Template' />

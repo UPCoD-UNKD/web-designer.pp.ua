@@ -59,20 +59,20 @@ function Works() {
 				<div className='container'>
 					<div className='page__navigation'>
 						<Link to='/contact' className='page__link'>
-							Контакты
+							Contact
 						</Link>
 						<div className='page__pagination'>
 							<Link to='/' className='page__link'>
-								Главная
+								Home
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
-							<p className='page__link page__link--active'>Работы</p>
+							<p className='page__link page__link--active'>Works</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className='category'>
-				<h2 className='title--single'>Все работы</h2>
+				<h2 className='title--single'>Works</h2>
 				<div className='category__items'>
 					<Link to='/uni-builder' className='product__image'>
 						<img src={f001} alt='Uny Chat' />

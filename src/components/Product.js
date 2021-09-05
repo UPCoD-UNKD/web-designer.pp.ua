@@ -14,13 +14,13 @@ function Product() {
 	return (
 		<section id='product_block'>
 			<div className='container'>
-				<Title type='title--section left' text='Избранное' />
+				<Title type='title--section left' text='Featured Works' />
 				<div className='product'>
 					<div className='product__description'>
-						<Title type='title--product' text='Uny Chat' />
-						<p className='product--text'>Шаблон чата. Светлая и темная тема</p>
+						<Title type='title--product' text='Uny Chat. Dark &amp; Light Theme' />
+						<p className='product--text'>Chat Figma Template<br />Dark &amp; Light Theme</p>
 						<Link to='/uni-chat-ui' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -32,9 +32,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Uny Builder Bootstrap Blocks' />
-						<p className='product--text'>Билдер сайта на Bootstrap</p>
+						<p className='product--text'>Bootstrap HTML Blocks</p>
 						<Link to='/uny-builder' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -46,9 +46,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Explore Luxury Magazine' />
-						<p className='product--text'>Шаблон журнала для печати</p>
+						<p className='product--text'>Magazine Template</p>
 						<Link to='/explore-luxury-magazine' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -60,9 +60,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Modena Wordpress Theme' />
-						<p className='product--text'>WordPress тема</p>
+						<p className='product--text'>Wordpress Theme</p>
 						<Link to='/modena-wordpress-theme' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -74,9 +74,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Brandy Ghost Theme' />
-						<p className='product--text'>Ghost тема</p>
+						<p className='product--text'>Ghost Theme</p>
 						<Link to='/brandy-ghost-theme' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -88,9 +88,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Delicuous Application' />
-						<p className='product--text'>Шаблон сайта для приложения</p>
+						<p className='product--text'>Photoshop Landing Template</p>
 						<Link to='/delicious-application' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -102,9 +102,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Deluxe Business Card' />
-						<p className='product--text'>Шаблон визитной карточки</p>
+						<p className='product--text'>Business Card Template</p>
 						<Link to='/deluxe-business-card' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>
@@ -116,9 +116,9 @@ function Product() {
 				<div className='product'>
 					<div className='product__description'>
 						<Title type='title--product' text='Web Banner Ad Template' />
-						<p className='product--text'>Шаблон баннеров для сайта</p>
+						<p className='product--text'>Web Banners Template</p>
 						<Link to='/web-banner-ad-template' className='product__link'>
-							Смотреть
+							See More
 						</Link>
 					</div>
 					<div className='product__image'>

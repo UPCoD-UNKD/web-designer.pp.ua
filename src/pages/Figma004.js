@@ -13,22 +13,22 @@ function Figma004() {
 						</Link>
 						<div className='page__pagination'>
 							<Link to='/' className='page__link'>
-								Главная
+								Home
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
 							<Link to='/works' className='page__link'>
-								Работы
+								Works
 							</Link>
 							<p className='page__link page__link--row'>&rsaquo;</p>
-							<p className='page__link page__link--active'>Спортмастер</p>
+							<p className='page__link page__link--active'>Sportmaster</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className='container text-center'>
 				<div className='single'>
-					<h2 className='title--single'>Спортмастер</h2>
-					<img src={f004} alt='Спортмастер' />
+					<h2 className='title--single'>Sportmaster</h2>
+					<img src={f004} alt='Sportmaster' />
 				</div>
 			</div>
 		</section>

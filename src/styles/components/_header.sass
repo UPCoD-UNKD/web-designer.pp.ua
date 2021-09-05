@@ -16,12 +16,16 @@
   display: none
   +v-sm
     display: block
+    transform: translate(25px,10px)
+  +v-xs
+    display: block
+    transform: translate(10px,10px)
   span
     position: fixed
     right: 28px
     width: 30px
     height: 2px
-    background-color: $premium
+    background-color: $white
     transition: all ease-out .2s
     &.one
       top: 29px
@@ -62,10 +66,12 @@
       font-size: 1em
       font-weight: 800
       text-transform: uppercase
+      +v-xs
+        display: none
   +v-sm
     position: fixed
-    top: 10px
-    left: 15px
+    top: 27px
+    left: 30px
   &__img
     width: auto
     height: 48px

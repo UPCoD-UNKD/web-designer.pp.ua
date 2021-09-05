@@ -10,12 +10,12 @@ function About() {
 	return (
 		<section id='about_block'>
 			<div className='container'>
-				<Title type='title--section' text='Навыки' />
+				<Title type='title--section' text='Skills' />
 				<div className='features'>
-					<Feature title='Фронтенд' icon={front} />
-					<Feature title='UI Дизайн' icon={ui} />
-					<Feature title='Веб Дизайн' icon={web} />
-					<Feature title='Принт Дизайн' icon={print} />
+					<Feature title='Frontend' icon={front} />
+					<Feature title='UI Design' icon={ui} />
+					<Feature title='Web Design' icon={web} />
+					<Feature title='Print Design' icon={print} />
 				</div>
 			</div>
 		</section>

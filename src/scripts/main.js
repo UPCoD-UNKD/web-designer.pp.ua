@@ -1,21 +1,33 @@
 import * as $ from 'jquery'
 
-$(document).ready(function() {
-	$('.wd-burger').on('click', function() {
+$(document).ready(function () {
+	$('.wd-burger').on('click', function () {
 		$(this).toggleClass('opened')
 		$('.wd-menu').toggleClass('mob-menu')
 		$('body').toggleClass('fix-mob')
 	})
 	// Preblems & Solutions
-	$('wd-menu--hover.opened').mouseleave(function() {
+	$('.mob').on('click', function () {
+		$('.wd-burger').toggleClass('opened')
+		$('.wd-menu').toggleClass('mob-menu')
+		$('body').toggleClass('fix-mob')
+	})
+	$('.wd-menu__link').on('click', function () {
+		$('.wd-burger').toggleClass('opened')
+		$('.wd-menu').toggleClass('mob-menu')
+		$('body').toggleClass('fix-mob')
+	})
+	$('wd-menu--hover.opened').mouseleave(function () {
 		$(this).removeClass('opened')
+		$('.wd-menu').toggleClass('mob-menu')
+		$('body').toggleClass('fix-mob')
 	})
 	$('.wd-menu__link--dropdown').hover(
-		function() {
+		function () {
 			$('#top_block').css('overflow', 'visible')
 			$('wd-menu--hover').addClass('opened')
 		},
-		function() {
+		function () {
 			if ($('wd-menu--hover').hasClass('opened') !== true) {
 				$('#top_block').css('overflow', 'hidden')
 			}
@@ -23,7 +35,7 @@ $(document).ready(function() {
 	)
 
 	// Scroll To
-	$('.scroll').click(function(event) {
+	$('.scroll').click(function (event) {
 		event.preventDefault()
 		var full_url = this.href
 		var parts = full_url.split('#')

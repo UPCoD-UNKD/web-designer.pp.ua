@@ -2,11 +2,7 @@
 	"name": "test",
 	"version": "0.1.0",
 	"private": true,
-<<<<<<< HEAD
-	"homepage": "PUBLIC_URL=__PUBLIC_URL_PLACEHOLDER__ react-scripts build && node scripts/patch-public-url.js",
-=======
-	"homepage": "https://emagweb.github.com/UPCoD-UNKD/web-designer.pp.ua",
->>>>>>> 4ef02ea55ed4a3ea407cc91e4ce0b4fc563d5cef
+	"homepage": "https://web-designer.pp.ua",
 	"dependencies": {
 		"web-vitals": "^1.0.1",
 		"bootstrap": "^4.6.0",

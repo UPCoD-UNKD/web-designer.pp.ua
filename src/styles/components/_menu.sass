@@ -6,18 +6,38 @@
   align-items: center
   width: 75%
   height: 40px
+  .mob
+    display: none
+    +v-sm
+      display: block
+      width: 100%
+      height: 60px
+      margin-left: 0
+      padding: 0 24px
+      color: $white
+      font-size: 1em
+      font-weight: 600
+      line-height: 58px
+      text-transform: uppercase
+      align-items: center
+      border-top: none
+      border-bottom: 1px solid darken($premium,30%)
+  +v-md
+    width: 50%
   +v-sm
     position: fixed
     display: block
-    top: 80px
+    top: 100px
     left: 120vw
     right: 0
     width: 100%
     height: 100vh
-    background-color: $dark
+    background-color: $premium
     transition: all ease-out .4s
     &.mob-menu
       left: 0
+  +v-sm
+    background-color: darken($premium, 25%)
   &__link
     display: inline-flex
     align-items: center
@@ -25,7 +45,7 @@
     margin-left: 48px
     color: $white
     font-size: .95em
-    font-weight: 800
+    font-weight: 600
     text-transform: uppercase
     +v-sm
       display: block
@@ -33,17 +53,20 @@
       height: 60px
       margin-left: 0
       padding: 0 24px
-      color: $premium
+      color: $white
       font-size: 1em
       line-height: 58px
       align-items: center
-      border-top: 1px solid darken($dark,5%)
+      border-top: none
+      border-bottom: 1px solid darken($premium,30%)
     &:hover,
     &.active
       color: #ffffffbf
     &--dropdown
       position: relative
       z-index: 1
+      +v-sm
+        display: none
       .wd-menu
         &--hover
           position: absolute
@@ -59,7 +82,7 @@
           overflow: hidden
           box-shadow: 0 6px 24px rgba(0,0,0,.5)
           transition: top linear .3s
-          z-index: 100000
+          z-index: 100000 !important
         &__link
           display: block
           margin: 0

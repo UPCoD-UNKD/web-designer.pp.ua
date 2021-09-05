@@ -4,20 +4,18 @@ import Button from './Button'
 
 function Intro() {
 	return (
-		<div className='intro'>
-			<div className='container'>
+		<div className='container'>
+			<div className='intro'>
 				<Title
 					type='title--intro'
-					text='Привет! Меня зовут Антонина. Я графический дизайнер и фронтенд разработчик'
+					text='Hey! My name is Antonina, I am a graphic designer and frontend developer'
 				/>
 				<p className='text'>
-					Вам нужен сайт, приложение, дизайн, логотип, визитка, буклет, журнал,
-					или что-нибудь похожее? Смело обращайтесь.
+					Do you need a website, application, design, logo, business card, brochure, magazine, or something similar? Feel free to contact me.
 					<br />
-					Мы обсудим все детали, выберем подходящее решение для вашей задачи, и
-					после ее реализации, вы останетесь довольны результатом.
+					We will discuss all the details, choose the appropriate solution for your task, and after its implementation, you will be satisfied with the result.
 				</p>
-				<Button url='contact' type='premium' text='Связаться со мной' />
+				<Button url='contact' type='premium' text='Contact me' />
 			</div>
 		</div>
 	)
