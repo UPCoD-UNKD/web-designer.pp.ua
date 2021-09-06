@@ -74,6 +74,10 @@ function App() {
 				<Header />
 				<div className='content'>
 					<Switch>
+						<Route
+							path="/design_development.png"
+							render={() => <Redirect to="https://web-designer.pp.ua/design_development.png" />}
+						/>
 						<Route exact path='/' component={Home} />
 						<Route exact path='/about' component={AboutPage} />
 						<Route exact path='/contact' component={ContactPage} />
